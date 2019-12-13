@@ -2,7 +2,7 @@ module.exports = {
   theme: {
     colors: {
       primary: "#E3C4A8",
-      gray: "#F8F9FA",
+      gray: "#C1C1C0",
       white: "#fff",
       dark: "#333333"
     },
@@ -11,10 +11,11 @@ module.exports = {
       body: ['"Nunito Sans"', "sans-serif"]
     },
     fontSize: {
-      xs: "0.8rem",
+      xs: "0.68rem",
+      sm: "0.8rem",
       base: "1rem",
       lg: "1.5rem",
-      xl: "d",
+      xl: "2em",
       "2xl": "4rem"
     }
   },
