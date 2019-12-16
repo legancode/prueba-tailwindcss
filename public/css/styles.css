@@ -1,12 +1,18 @@
+/* line 1, src/styles/styles.scss */
+
 .outline {
   outline: 1px solid red;
 }
+
+/* line 5, src/styles/styles.scss */
 
 .overlay {
   position: relative;
 }
 
-.overlay::before {
+/* line 9, src/styles/styles.scss */
+
+.overlay:before {
   content: "";
   width: 100%;
   height: 100%;
@@ -14,6 +20,8 @@
   opacity: 0.4;
   position: absolute;
 }
+
+/* line 18, src/styles/styles.scss */
 
 .hero {
   height: 80vh;
